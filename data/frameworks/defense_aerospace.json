@@ -1,0 +1,165 @@
+{
+  "sector_id": "defense_aerospace",
+  "id": "defense_aerospace",
+  "name": "defense_aerospace",
+  "display_name": "Defense & Aerospace",
+  "description": "Framework for defense and aerospace companies (KOG, RHM, SAAB, LMT, RTX, etc.)",
+  "base_version": "1.0",
+  "section_overrides": {
+    "1": {
+      "required_elements": [
+        "business_model_snapshot",
+        "headline_thesis",
+        "key_catalysts",
+        "critical_metrics",
+        "valuation_context",
+        "investor_takeaway"
+      ]
+    },
+    "2": {
+      "subsections": [
+        "defense_budget_cycle",
+        "geopolitical_threat_environment",
+        "nato_alliance_spending_trends",
+        "regulatory_export_controls"
+      ],
+      "key_drivers": [
+        "national_defense_budgets",
+        "geopolitical_tensions",
+        "nato_2pct_gdp_commitments",
+        "technology_modernization_cycles",
+        "export_license_approvals"
+      ]
+    },
+    "3": {
+      "name_override": "Strategic Positioning - Defense Contractor",
+      "subsections": [
+        "prime_vs_subcontractor_positioning",
+        "program_portfolio_mix",
+        "competitive_moats",
+        "international_vs_domestic_revenue"
+      ]
+    },
+    "4": {
+      "required_elements": [
+        "primary_segment_overview",
+        "key_programs_and_platforms",
+        "backlog_analysis",
+        "book_to_bill_ratio",
+        "contract_lifecycle_analysis",
+        "funded_vs_unfunded_backlog"
+      ],
+      "operational_kpis": [
+        "book_to_bill_ratio",
+        "backlog_total",
+        "backlog_funded_unfunded",
+        "contract_win_rate",
+        "program_execution_metrics",
+        "delivery_schedule_adherence"
+      ]
+    },
+    "5": {
+      "required_elements": [
+        "secondary_segment_overview",
+        "civil_or_commercial_exposure",
+        "services_aftermarket",
+        "growth_adjacencies"
+      ]
+    },
+    "6": {
+      "required_elements": [
+        "supply_chain_partners",
+        "joint_ventures",
+        "key_subcontractors",
+        "government_customer_relationships"
+      ]
+    },
+    "7": {
+      "metrics": [
+        "revenue_yoy_organic",
+        "ebitda_margin",
+        "operating_margin",
+        "book_to_bill",
+        "backlog_coverage_years",
+        "fcf_conversion",
+        "capex_intensity"
+      ],
+      "margin_analysis": {
+        "margin_drivers": [
+          "program_mix_maturity",
+          "cost_plus_vs_fixed_price",
+          "international_margin_premium",
+          "services_aftermarket_margin"
+        ],
+        "margin_headwinds": [
+          "program_cost_overruns",
+          "fixed_price_development",
+          "supply_chain_inflation"
+        ]
+      },
+      "capital_allocation": [
+        "dividends_buybacks",
+        "m_and_a_strategy",
+        "capex_for_capacity_expansion",
+        "debt_management"
+      ]
+    },
+    "8": {
+      "teaching_topics": [
+        "defense_procurement_process",
+        "contract_types_cost_plus_vs_fixed",
+        "backlog_and_book_to_bill_analysis",
+        "defense_budget_cycle_dynamics",
+        "reading_defense_company_financials"
+      ]
+    },
+    "9": {
+      "peer_groups": {
+        "us_primes": ["LMT", "RTX", "NOC", "GD", "BA"],
+        "european_defense": ["SAAB", "RHM", "BAE", "AIR"],
+        "specialty_defense": ["KOG", "AXON", "LHX"]
+      },
+      "valuation_multiples": [
+        "ev_ebitda",
+        "pe_forward",
+        "p_fcf",
+        "ev_backlog"
+      ]
+    },
+    "10": {
+      "risk_categories": [
+        "budget_sequestration_cuts",
+        "program_cancellation",
+        "cost_overruns_fixed_price",
+        "geopolitical_deescalation",
+        "export_control_restrictions",
+        "workforce_talent_shortage"
+      ]
+    }
+  },
+  "data_requirements": {
+    "financial": [
+      "revenue_by_segment",
+      "ebitda_margin",
+      "operating_margin",
+      "fcf_and_conversion",
+      "backlog_total",
+      "book_to_bill",
+      "capex"
+    ],
+    "operational": [
+      "key_programs_and_platforms",
+      "contract_awards_recent",
+      "backlog_funded_unfunded",
+      "customer_concentration_government",
+      "international_revenue_share"
+    ],
+    "forward_looking": [
+      "defense_budget_trajectory",
+      "pending_contract_awards",
+      "management_guidance",
+      "program_milestones_upcoming",
+      "geopolitical_developments"
+    ]
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "sector_id": "semiconductor_fabless",
+  "id": "semiconductor_fabless",
+  "name": "semiconductor_fabless",
+  "display_name": "Semiconductor - Fabless Companies",
+  "description": "Framework for fabless chip designers (NVDA, AMD, AVGO, MRVL, etc.)",
+  "base_version": "1.0",
+  "section_overrides": {
+    "1": {
+      "required_elements": [
+        "business_model_snapshot",
+        "headline_thesis",
+        "key_drivers",
+        "critical_metrics",
+        "valuation_context",
+        "investor_takeaway"
+      ]
+    },
+    "2": {
+      "subsections": [
+        "sector_drivers_fabless",
+        "cycle_position_fabless",
+        "competitive_regulatory"
+      ],
+      "key_drivers": [
+        "ai_cloud_hyperscaler_capex",
+        "networking_bandwidth_transitions",
+        "pc_gaming_refresh",
+        "mobile_edge_5g",
+        "auto_adas"
+      ]
+    },
+    "3": {
+      "name_override": "Strategic Positioning - Fabless Model",
+      "subsections": [
+        "business_model_segment_architecture",
+        "moats_specific_to_fabless",
+        "foundry_supply_strategy"
+      ]
+    },
+    "4": {
+      "product_analysis_template": {
+        "per_product": [
+          "what_it_is",
+          "use_cases_customers",
+          "competitive_position",
+          "unit_economics_asp",
+          "roadmap_transition"
+        ]
+      },
+      "operational_kpis": [
+        "unit_shipments",
+        "asp_trend",
+        "content_per_system",
+        "attach_rates",
+        "time_to_market_vs_peers"
+      ]
+    },
+    "7": {
+      "metrics": [
+        "revenue_yoy_qoq",
+        "gross_margin_pct",
+        "r_and_d_pct",
+        "operating_margin_pct",
+        "eps_gaap_non_gaap",
+        "fcf_margin",
+        "inventory_days"
+      ],
+      "margin_analysis": {
+        "gross_margin_drivers": [
+          "mix_shift_ai_vs_legacy",
+          "foundry_cost_wafer_yield",
+          "pricing_power"
+        ],
+        "gross_margin_headwinds": [
+          "nre_levels",
+          "inventory_write_downs"
+        ]
+      },
+      "capital_allocation": [
+        "dividends_buybacks",
+        "m_and_a_strategy",
+        "r_and_d_intensity_trend"
+      ]
+    },
+    "8": {
+      "teaching_topics": [
+        "fabless_vs_foundry_vs_idm",
+        "key_fabless_kpis",
+        "competitive_dynamics",
+        "reading_guidance_and_hype"
+      ]
+    },
+    "9": {
+      "peer_groups": {
+        "ai_gpu": ["NVDA", "AMD", "INTC"],
+        "networking": ["AVGO", "MRVL"],
+        "connectivity": ["CRDO", "ALAB"]
+      },
+      "valuation_multiples": [
+        "ev_sales",
+        "pe_forward",
+        "p_fcf",
+        "peg_ratio"
+      ]
+    },
+    "10": {
+      "risk_categories": [
+        "technology_execution",
+        "competitive_response",
+        "export_controls",
+        "foundry_supply",
+        "customer_concentration"
+      ]
+    }
+  },
+  "data_requirements": {
+    "financial": [
+      "revenue_by_segment",
+      "gross_margin",
+      "r_and_d_spend",
+      "operating_margin",
+      "fcf",
+      "inventory_levels",
+      "eps_gaap_and_adjusted"
+    ],
+    "operational": [
+      "product_families_and_specs",
+      "customer_names_hyperscalers",
+      "design_wins",
+      "foundry_relationships",
+      "node_mapping",
+      "software_ecosystem"
+    ],
+    "forward_looking": [
+      "hyperscaler_capex_guidance",
+      "product_roadmap",
+      "management_commentary_on_demand",
+      "inventory_channel_checks"
+    ]
+  }
+}
